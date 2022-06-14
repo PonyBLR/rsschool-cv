@@ -88,11 +88,9 @@ ul {
 .user__name{
     padding-left: 40px;
     padding-right: 20px;
-    
-    
 }
 
-.my__name{
+.my__name h1{
     font-size: 30px;
     font-weight: bold;
     line-height: 2;
@@ -143,7 +141,7 @@ ul {
     font-size: 20px;
     text-transform: uppercase;
     font-weight: bold;
-    border: 4px solid black;
+    border: 4px solid ;
     color: beige;
     background: black;
     display: flex;
@@ -153,8 +151,8 @@ ul {
     
 }
 
-.opisanie__educat ul li{
-    font-size: 19px;
+.opisanie__educat {
+    font-size: 20px;
     margin-top: 10px;
 
 }
@@ -165,7 +163,7 @@ ul {
     font-size: 20px;
     text-transform: uppercase;
     font-weight: bold;
-    border: 4px solid black;
+    border: 4px solid ;
     color: beige;
     background: black;
     display: flex;
@@ -174,6 +172,7 @@ ul {
     margin-left: 25px;
 
 }
+
 
 .qualities ul li{
     margin-left: 15px;
@@ -186,7 +185,7 @@ ul {
     font-size: 20px;
     text-transform: uppercase;
     font-weight: bold;
-    border: 4px solid black;
+    border: 4px solid;
     color: beige;
     background: black;
     display: flex;
@@ -198,8 +197,12 @@ ul {
 
 .skill__my ul li{
     margin-left: 15px;
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 19px;
+}
+
+.skill__my ul{
+    margin-top: 30px;
 }
 
 
@@ -232,6 +235,7 @@ ul {
 
 
 
+
 /* -------- main-----------------*/
 
 .info__my{
@@ -247,10 +251,23 @@ ul {
     max-width: 458px;
     height: auto;
     position: relative;
-    display: flex;
+    display:block;
     background: rgb(116, 115, 72);
     padding: 49px;
+}
 
+.info__content p{
+    margin-top: 40px;
+    font-size: 20px;
+    color: beige;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: black;
+    border: 4px solid #111;
+    color: beige;
+    display: flex;
+    justify-content: center;
+    max-width: 520px;
 }
 
 .sxema__content{
@@ -265,23 +282,48 @@ ul {
    
 
 }
+.level__engl{
+
+    margin-top: 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 4px solid;
+    color: beige;
+    background: black;
+    display: flex;
+    justify-content: center;
+    max-width: 520px;
+    margin-left: 25px;
+}
+
+.text_engl{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 25px;
+
+}
 
 .work__exp{
     margin-top: 40px;
     font-size: 20px;
     text-transform: uppercase;
     font-weight: bold;
-    border: 4px solid black;
+    border: 4px solid;
     color: beige;
     background: black;
     display: flex;
     justify-content: center;
     max-width: 520px;
-    
-    
-
+}
+.primer__coda{
+    border: 2px solid;
 }
 
+.primer__coda span{
+    font-size: 20px;
+
+}
 .work__op ul li{
     padding-left: 5px;
     margin-top: 10px;
@@ -301,7 +343,7 @@ ul {
     width: 45%;
     max-width: 458px;
     position: relative;
-    display: grid;
+    display: flex;
     justify-content: center;
     position: relative;
     background: rgb(116, 115, 72);
@@ -329,6 +371,11 @@ ul {
 
 }
 
+.silka{
+    font-size: 20px;
+    text-decoration:underline;
+}
+
 
 .phoro_rss{
     height: 70px;
@@ -343,9 +390,16 @@ ul {
 }
 
 
+.intro__foter a{
+    font-weight: bold;
+    text-decoration: underline;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
 /*-------------------боковая панель---------------------*/
 .wrapper{
-    min-height: 80px;
     width: 100%;
     margin: 0;
     position: fixed;
@@ -357,8 +411,6 @@ ul {
     .photo__nava{
     height: 66px;
     margin-top: 7px;
-    padding: 0 0 3 16px ;
-    
     }
     
     .panel__vertical{
@@ -366,8 +418,7 @@ ul {
     height: auto;
     position: fixed;
     z-index: 5;
-    top: 79px;
-    transition: .3 ;
+    top: 79px;   
     }
     
     .panel__vertical ul{
@@ -391,6 +442,7 @@ ul {
     padding: 10px 15px;
     background: rgb(11, 97, 97);
     
+ 
     
     
     }
