@@ -1,2 +1,2 @@
-1.https://PonyBLR.github.io/rsschool-cv/cv
-2.https://PonyBLR.github.io/rsschool-cv/
+# https://PonyBLR.github.io/rsschool-cv/cv
+# https://PonyBLR.github.io/rsschool-cv/
