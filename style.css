@@ -1,0 +1,461 @@
+body{
+    background: rgb(11, 97, 97);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    min-width: 1440px;
+}
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    box-sizing: border-box;
+    color: black;
+    
+  }
+
+@media (max-width: 768px) {
+    .container {
+      width: 100%;
+    }
+  }
+
+header:after, .container:after, footer:after, .widget-posts-list li:after, #subscribe:after {
+    content: "";
+    display: table;
+    clear: both;}
+
+ul {
+        list-style: none;
+     }
+     a {
+        text-decoration: none;
+        outline: none;
+     }
+     img {
+        display: block;
+        width: 100%;    }
+
+  
+.container{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.container .user{
+    position: relative;
+    display: grid;
+    background: rgb(116, 115, 72);
+    padding: 49px;
+    padding-top: 10px;
+
+}
+
+  .hed__inner{
+    display: flex;
+    justify-content: space-between;
+
+    
+    
+  }
+
+  
+.user{
+    align-items: center;
+    width: 45%;
+
+    
+    
+}
+
+.user__myphoto{
+    margin: 10px;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 50%;
+    margin-bottom: 0px;
+
+
+}
+
+.user__name{
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.my__name h1{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 2;
+    padding-bottom: 8px;
+    padding-left: 42px;
+    
+    
+}
+
+.user__prof{
+    max-width: 300px ;
+}
+
+.user__prof p{
+    margin-top: 5px;
+    font-size: 20px;
+}
+.user__prof span{
+    font-weight:bold;
+    font-size: 17px;
+}
+
+/* Навиация соц сети */
+
+.nav__osnova{
+    background: rgb(255, 255, 255);
+    width:55% ;
+}
+
+
+
+
+.nav-contact{
+    margin: 10px;
+    display: flex;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+}
+
+.photo__contact{
+    margin-left: 10px;
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.education__logo{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 4px solid ;
+    color: beige;
+    background: black;
+    display: flex;
+    justify-content: center;
+    width: 520px;
+    margin-bottom: 20px;
+    
+}
+
+.opisanie__educat {
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+ 
+
+.logo__work { 
+    margin-top: 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 4px solid ;
+    color: beige;
+    background: black;
+    display: flex;
+    justify-content: center;
+    max-width: 520px;
+    margin-left: 25px;
+
+}
+
+
+.qualities ul li{
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 19px;
+}
+
+.skills{
+    margin-top: 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 4px solid;
+    color: beige;
+    background: black;
+    display: flex;
+    justify-content: center;
+    max-width: 520px;
+    margin-left: 25px;
+
+}
+
+.skill__my ul li{
+    margin-left: 15px;
+    margin-top: 20px;
+    font-size: 19px;
+}
+
+.skill__my ul{
+    margin-top: 30px;
+}
+
+
+.text__contact{
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.cont__ikon{
+    padding-left: 10px;
+    display: flex;
+}
+
+.photo__contact1{ margin-left: 15px;}
+
+.my__dostij{
+    max-width: 400px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.text__contact{
+    margin-right: 10px  ;
+}
+
+.hr__name{
+    max-width: 400px;   
+    margin-inline-start: -54px; 
+}
+
+
+
+
+/* -------- main-----------------*/
+
+.info__my{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.info__content{
+    max-width: 45%;
+    max-width: 458px;
+    height: auto;
+    position: relative;
+    display:block;
+    background: rgb(116, 115, 72);
+    padding: 49px;
+}
+
+.info__content p{
+    margin-top: 40px;
+    font-size: 20px;
+    color: beige;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: black;
+    border: 4px solid #111;
+    color: beige;
+    display: flex;
+    justify-content: center;
+    max-width: 520px;
+}
+
+.sxema__content{
+    width: 55%;
+    max-width: 560px;
+    height: auto;
+    position: relative;
+    display: block;
+    background: aliceblue;
+    padding-left: 25px;
+    padding-right: 20px;
+   
+
+}
+.level__engl{
+
+    margin-top: 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 4px solid;
+    color: beige;
+    background: black;
+    display: flex;
+    justify-content: center;
+    max-width: 520px;
+    margin-left: 25px;
+}
+
+.text_engl{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 25px;
+
+}
+
+.work__exp{
+    margin-top: 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 4px solid;
+    color: beige;
+    background: black;
+    display: flex;
+    justify-content: center;
+    max-width: 520px;
+}
+.primer__coda{
+    border: 2px solid;
+}
+
+.primer__coda span{
+    font-size: 20px;
+
+}
+.work__op ul li{
+    padding-left: 5px;
+    margin-top: 10px;
+    font-size: 19px;
+}
+/*---------------Foter-------------------*/
+
+.end{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.intro__foter{
+    width: 45%;
+    max-width: 458px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background: rgb(116, 115, 72);
+    padding: 49px;
+    padding-bottom: 0;
+    align-items: center;
+    padding-top: 97px;
+
+}
+
+.intro__foter span{
+    font-size: 18px ;
+}
+
+
+.foter__end{
+    width: 55%;
+    max-width: 560px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    background: aliceblue;
+    padding-left: 40px;
+    padding-right: 20px;
+
+}
+
+.silka{
+    font-size: 20px;
+    text-decoration:underline;
+}
+
+
+.phoro_rss{
+    height: 70px;
+    margin-left: 0px;
+    top: 80px;
+    margin-top: 50px;
+}
+
+.text__fot{
+    margin-top: 70px;
+    margin-right: 20px;
+}
+
+
+.intro__foter a{
+    font-weight: bold;
+    text-decoration: underline;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
+/*-------------------боковая панель---------------------*/
+.wrapper{
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    z-index: 10;
+    padding-left: 30px;
+    
+    }
+    
+    .photo__nava{
+    height: 66px;
+    margin-top: 7px;
+    }
+    
+    .panel__vertical{
+    width: 71px;
+    height: auto;
+    position: fixed;
+    z-index: 5;
+    top: 79px;   
+    }
+    
+    .panel__vertical ul{
+    display: block;
+    width: 54px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    }
+    
+    .panel__vertical ul li{
+    position: relative;
+    display: block;
+    width: 100px;
+    height: auto;
+    box-sizing: border-box;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 2em;
+    padding: 10px 15px;
+    background: rgb(11, 97, 97);
+    
+ 
+    
+    
+    }
+/*=========================================*/
+    .skill__stroka{     
+    margin-left: 10px;
+    }
+
+    .section-item a {
+        color: #829985;
+        text-decoration: none;  
+        transition: color 0.5s;
+      }
+      .section-item a:hover {
+        color: #4d2323;
+      }

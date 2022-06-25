@@ -1,0 +1,651 @@
+html{
+    cursor: url('anime.png'),auto;
+    scroll-behavior: smooth;
+    
+}
+
+body{
+    
+    background: url(./cssph/garrett-parker-DlkF4-dbCOU-unsplash1.jpg) no-repeat center top;
+    min-width: 1440px;
+    padding: 0;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: 'Aleo', serif;
+    font-family: 'Magra', sans-serif;
+    font-family: 'Red Hat Text', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Tai Heritage Pro', serif;
+
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+
+h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+
+ul,li{
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;   
+   
+}
+
+.header{ 
+    margin: 0 auto;
+    min-width: 1440px;
+    
+}
+
+
+.nav{
+display: flex;
+align-items: center;
+height: 90px;
+background: rgba(242, 120, 92, 0.7);
+box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+
+
+}
+
+.left__header{
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+}
+.logo__trav{
+font-family: 'Magra', sans-serif;
+margin-left: 6px;
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+
+
+color: #FFFFFF;
+}
+.center__header{
+    margin-left: 158px;
+    
+}
+.menu__header{
+    display: flex;
+    
+}
+
+.right__header{
+    margin-left: auto;
+    margin-right: 114px;
+    
+}
+.menu__header li a{
+    /* color: #FFFFFF; */
+    text-decoration: none;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+
+color: #FFFFFF;
+}
+
+.menu__header li{
+    margin: 0;
+    padding: 0;
+    margin-right: 42px;
+}
+
+
+
+.button__head{
+    font-family: 'Red Hat Text';
+    border: #FFFFFF;
+    background: #0D606F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(57, 96, 103, 0.16);
+    border-radius: 10px;
+    color: #FFFFFF;
+    /* font-family: 'Red Hat Text'; */ /*=======================================================================*/
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    width: 103px;
+    height: 41px;
+    
+    
+}
+
+
+/*----------------------Секция с поиском -----------------*/
+
+.preview {
+font-family: 'Aleo';
+margin-left: 120px;
+margin-top: 32px;
+width: 892px;
+height: 422px;}
+/* background: #133;
+} */
+
+.top__preview h1{
+font-family: 'Aleo';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 96px;
+color: #FFFFFF;
+}
+
+.center__preview{
+font-family: 'Aleo';
+font-style: italic;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+margin-bottom: 46px;
+margin-top: 30px;
+}
+
+.bottom__preview{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background: rgba(255, 255, 255, 0.7);
+border-radius: 16px;
+height: 95px;
+
+}
+
+.watch__preview{
+ margin-left: 41px;
+ font-family: 'Aleo';
+font-style: italic;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #F2785C;
+width: 560px;
+height: 95px;
+left: 120px;
+top: 416px;
+border: none;
+background: rgba(255, 255, 255, 0.1);
+border-radius: 16px;
+
+
+}
+.watch__preview::placeholder {
+    color: #F2785C;
+}
+
+
+input {outline:none;}
+
+
+.btn__preview{
+    padding: 10px 32px;
+    width: 228px;
+    height: 59px;
+    margin-right: 18px;
+    border: #FFFFFF;
+    background: #0D606F;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(57, 96, 103, 0.16);
+    border-radius: 10px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+
+/*---------------------------3 блок степ------------------------------*/
+
+.three__steps{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}   
+
+.logo__steps h2{
+margin-top: 334px;    
+margin-left: 28.75%;
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 53px;
+color: #F2785C;
+}
+
+.left__steps{
+    margin-left: 204px;
+    background: #F2785C;
+    border-radius: 16px;
+    width: 100px;
+    height: 100px;
+}
+
+.vector__left{
+    padding: 24px;
+
+
+
+}
+
+.center__steps{
+    background: #F2785C;
+    border-radius: 16px;
+    width: 100px;
+   height: 100px;
+}
+
+.vector__center{
+    padding: 24px;
+}
+
+
+.right__steps{
+    margin-right: 240px;
+    background: #F2785C;
+    border-radius: 16px;
+    width: 100px;
+    height: 100px;    
+}
+
+.vector__right{
+    padding: 24px;
+}
+
+.text__steps{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left__text{
+margin-right: 25px;
+ margin-left: 131px;
+ font-family: 'Aleo';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 20px;
+ line-height: 24px;
+ color: #0D606F;
+}
+
+.center__text{
+width: 222px;
+height: 24px;
+font-family: 'Aleo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #0D606F;
+}
+
+.right__text {
+    margin-right: 132px;
+    width: 317px;
+    height: 24px;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0D606F;
+}
+
+
+/*-----------------------слайды---------------------------------*/
+
+.photo__dest{
+    border-radius: 16px;    
+}
+
+
+.slaid__destin{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    
+
+}
+
+.logo__destin h2{
+text-align: center;
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 53px;
+color: #F2785C;
+margin-top: 97px;
+margin-bottom: 46px;
+
+}
+
+.left__slaid{
+    position: relative;
+}
+
+.left__stext{
+    bottom: 40px;
+    left: 15px;
+    position: absolute;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FFFFFF;
+
+}
+
+
+.center__slaid {
+    margin-left: 60px;
+    margin-right: 60px;
+    position: relative; }
+
+
+.center__stext {
+    bottom: 40px;
+    left: 15px;
+    position: absolute;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FFFFFF;
+
+}
+
+.right__slaid{
+    position: relative;
+}
+
+.right__stext{
+    bottom: 40px;
+    left: 15px;
+    position: absolute;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+.left__dot{
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.pagination {
+    clear:both;
+    width:100px;
+    margin:25px auto 0;
+    padding:0;
+}
+
+.pagination li {
+    list-style:none;
+    float:left;
+    margin:0 2px;
+}
+
+.pagination li a {
+    display:block;
+    width: 20px;
+    height: 20px;
+    text-indent:-10000px;
+    background: rgba(242, 120, 92, 0.5);
+    border-radius: 10px;
+    border-radius: 10px;
+    border-radius: 10px;
+    }
+
+ 
+.pagination li a.active {
+    background: #F2785C;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    }
+
+.button__bot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 116px;
+    height: 32px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    flex-grow: 0;
+    margin-top: 95px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 228px;
+    height: 59px;
+    background: #0D606F;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    border:  0px solid #FFFFFF;
+    }
+
+ .photo__arrow {
+    margin-right: 12.5px;
+ }
+
+ /*-----------------stories--------------------------*/
+ .all__stories,
+ .all__footer{
+    
+    
+    background: url(./cssph/Rectangle27.jpg);
+    /* z-index: index -1000    ; */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+
+  }
+ 
+
+ .zam__osnova{
+background: rgba(255, 255, 255, 0.7);
+
+ }
+
+ .logo__stories h2{
+margin-top: 80px;
+text-align: center;
+margin-bottom: 40px;
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 53px;
+color: #F2785C;
+ }
+
+ .punkt__all{
+    display: flex;
+    margin-left: 120px;
+    margin-top: 30px;
+ }
+
+
+ 
+
+
+ .punkt__1{
+    display: flex;
+    margin-left: 120px;
+    padding-top: 40px;
+ }
+
+
+ .photo__punkt{
+    margin-right: 40px;
+ }
+
+ .photo__stor{
+
+    filter: drop-shadow(0px 4px 4px #0D606F);
+    border-radius: 16px;
+ }
+
+
+ .logo_punkt{
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    color: #0D606F;
+    margin-bottom: 24px;
+ }
+
+
+ .button__stories{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 116px;
+    height: 32px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    flex-grow: 0;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 228px;
+    height: 59px;
+    background: #0D606F;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    border:  0px solid #FFFFFF;
+   
+    
+ }
+
+ .btn__stories{
+    padding-bottom: 41px;
+ }
+
+
+
+ /* -----------------footer--------------------------  */   
+
+ .footer{
+    min-width: 1440px;
+    margin: 0 auto;
+ }
+.all__footer{
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    
+}
+
+.text_punkt{
+    width: 760px;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0D606F;
+ }
+
+ .text_punkt a{
+    width: 760px;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0D606F;
+    
+ }
+
+
+
+.text__foooter{
+padding-right: 329.4px;
+margin-left: auto;
+margin-top: 21px;     
+margin-bottom: 19px;
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+color: #FFFFFF;
+}
+
+.icons__footer ul{
+    display: flex;
+    margin-right: 123.5px;
+    
+}
+
+
+.footer__youtube{
+    padding-left: 24.12px;
+    padding-top: 19.61px;
+}
+
+.footer__twiter{
+    padding-left: 24.12px;
+    padding-top: 17.85px;
+}
+
+.footer__instagram{
+    padding-top: 17px;
+}
+
+
+
+
+
+.text__punk a {
+font-family: 'Aleo';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 24px;
+color: #0D606F;
+}
