@@ -1,7 +1,15 @@
 html{
-    cursor: url('anime.png'),auto;
+    cursor: url('cursor_78466.png'),auto;
     scroll-behavior: smooth;
-    
+
+}
+
+button:hover  {
+    cursor: url('cursor_78466.png'),auto;
+}
+
+a:hover  {
+    cursor: url('cursor_78466.png'),auto;
 }
 
 body{
